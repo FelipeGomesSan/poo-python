@@ -17,4 +17,7 @@ if __name__=='__main__':
     print(conjunto)
     print(gomes is conjunto)
     print(gomes is conjunto2)
-    print(conjunto+conjunto2)
+    print(conjunto.union(conjunto2))
+    print(conjunto.difference(conjunto2))
+    print(conjunto.intersection(conjunto2))
+    print(conjunto)
